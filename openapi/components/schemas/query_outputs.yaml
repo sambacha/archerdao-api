@@ -1,0 +1,6 @@
+type: object
+properties:
+  output:
+    description: uint256
+    type: string
+    pattern: '^-?[0-9]+$'

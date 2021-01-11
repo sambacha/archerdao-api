@@ -1,0 +1,16 @@
+type: object
+properties:
+  inputLocations:
+    description: >-
+      uint256[]: index locations within the script to insert input amounts
+      dynamically
+    type: array
+    items:
+      type: string
+      pattern: '^-?[0-9]+$'
+  script:
+    description: >-
+      bytes: the compiled bytecode for the series of function calls to get the
+      final price
+    type: string
+    pattern: '^(0x)?[a-fA-F0-9]+$'

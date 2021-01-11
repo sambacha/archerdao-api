@@ -1,0 +1,7 @@
+description: >-
+  Register the installed contract on a friendly path (overwrites existing)
+  (header: x-manifold-register)
+name: fold-register
+in: query
+schema:
+  type: string

@@ -1,0 +1,8 @@
+description: >-
+  Perform a read-only call with the same parameters that would be used to
+  invoke, and return result (header: x-manifold-call)
+name: fold-call
+in: query
+allowEmptyValue: true
+schema:
+  type: boolean

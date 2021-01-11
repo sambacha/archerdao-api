@@ -1,0 +1,9 @@
+description: >-
+  Block the HTTP request until the tx is mined (does not store the receipt)
+  (header: x-manifold-sync)
+name: fold-sync
+in: query
+allowEmptyValue: true
+schema:
+  type: boolean
+  default: true

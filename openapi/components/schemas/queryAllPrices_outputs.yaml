@@ -1,0 +1,6 @@
+type: object
+properties:
+  output:
+    description: bytes
+    type: string
+    pattern: '^(0x)?[a-fA-F0-9]+$'

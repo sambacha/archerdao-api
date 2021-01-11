@@ -1,0 +1,8 @@
+description: >-
+  Gas to send with the transaction (auto-calculated if not set) (header:
+  x-manifold-gas)
+name: fold-gas
+in: query
+allowEmptyValue: true
+schema:
+  type: integer

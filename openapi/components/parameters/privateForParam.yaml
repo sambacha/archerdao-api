@@ -1,0 +1,7 @@
+description: >-
+  Private transaction recipients (comma separated or multiple params) (header:
+  x-manifold-privatefor)
+name: fold-privatefor
+in: query
+schema:
+  type: string

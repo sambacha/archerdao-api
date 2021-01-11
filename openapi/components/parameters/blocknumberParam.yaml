@@ -1,0 +1,8 @@
+description: >-
+  The target block number for eth_call requests. One of
+  'earliest/latest/pending', a number or a hex string (header:
+  x-manifold-blocknumber)
+name: fold-blocknumber
+in: query
+schema:
+  type: string
